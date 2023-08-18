@@ -1,0 +1,109 @@
+body{
+  margin: 0;
+  font-family: 'Open Sans', sans-serif;
+  min-height: 100vh;
+  background: linear-gradient(180deg, rgba(227, 255, 248, 0) 82.08%, rgba(227, 255, 248, 0.38) 100%);
+}
+
+.page {
+  width: 1000px;
+  margin: 0 auto;
+  padding-top: 65px;
+}
+
+main {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 55px;
+}
+
+ul {
+  font-family: 'Mulish', sans-serif;
+  display: flex;
+  list-style: none;
+  gap: 48px;
+  margin: 0px;
+  padding: 0px;
+}
+
+
+a {
+  text-decoration: none;
+  color: #1F1534;
+}
+
+ul li a{
+  opacity: 0.5;
+}
+
+ul li a:hover{
+  font-weight: bold;
+  opacity: 1;
+}
+
+.logo {
+  font-family: 'Inter', sans-serif;
+}
+
+h1{
+  font-size: 49px;
+  line-height: 56px;
+  color: #1F1534;
+  font-weight: normal;
+  font-family: 'Mulish', sans-serif;
+}
+
+h1 span{
+  color: #89C5CC;
+  font-weight: bold;
+}
+
+section p{
+  color: #7D7987;
+  font-size: 14px;
+  line-height: 28px;
+  margin: 40px 0;
+}
+button:hover{
+  background: #4ea788;
+
+}
+button{
+  color: white;
+  text-transform: uppercase;
+  font-family: 'Open Sans', sans-serif;
+  background: #69B99D;
+  border: 0;
+  border-radius: 4px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  padding: 14px 32px 15px;
+  cursor: pointer;
+}
+
+footer{
+font-size: 14px;
+line-height: 28px;
+text-align: center;
+margin-top: 80px;
+}
+
+footer a{
+  font-weight: bold;
+}
+
+#Balls{
+position: fixed;
+bottom: 0px;
+right: 0px;
+}
+
